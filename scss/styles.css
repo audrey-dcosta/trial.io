@@ -1,5 +1,6 @@
 body {
-  background-image: linear-gradient(30deg, #10106d, #341275);
+  background-image: -webkit-gradient(linear, left top, right top, from(#230f3d), to(#0c1e58));
+  background-image: linear-gradient(450deg, #230f3d, #0c1e58);
 }
 
 nav {
