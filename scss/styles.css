@@ -107,4 +107,20 @@ nav .nav-el li a {
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
+
+.our-work .outer-box .img-box:nth-child(even) .card {
+  margin-left: -20%;
+}
+
+.our-work .outer-box .img-box:nth-child(odd) .card {
+  margin-left: 70%;
+}
+
+.our-work .outer-box .img-box .card {
+  width: 50%;
+  height: 200px;
+  opacity: 0.9;
+  background-color: white;
+  margin-top: 40%;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -14,11 +14,32 @@
         .img-box{
             &:nth-child(even){
                 align-self: flex-end;
+                .card{
+                    margin-left: -20%;
+                    // margin-left: 70%;
+                }
+                
             }
-
+            &:nth-child(odd){
+                .card{
+                    margin-left: 70%;
+                }
+                
+            }
             width: 70%;
             height: 700px;
             background-color: white;
+            .card{
+
+    
+                width: 50%;
+                height: 200px;
+                opacity: 0.9;
+                background-color: white;
+                // margin-left: 70%;
+                margin-top: 40%;
+                
+            }
         }
     }
     
