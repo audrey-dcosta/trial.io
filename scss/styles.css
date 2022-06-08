@@ -67,4 +67,44 @@ nav .nav-el li a {
 .desc-section {
   margin: 100px 200px;
 }
+
+.our-work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px 100px;
+}
+
+.our-work h2 {
+  border-bottom: 2px solid #0d3563;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.our-work .outer-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
+}
+
+.our-work .outer-box .img-box {
+  width: 70%;
+  height: 700px;
+  background-color: white;
+}
+
+.our-work .outer-box .img-box:nth-child(odd) {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
 /*# sourceMappingURL=styles.css.map */

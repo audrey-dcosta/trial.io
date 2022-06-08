@@ -1,0 +1,25 @@
+.our-work{
+    display:flex;
+    flex-direction: column;
+    margin: 50px 100px;
+    h2{
+        border-bottom: 2px solid rgb(13, 53, 99);
+        width: max-content;
+    }
+    .outer-box{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        
+        .img-box{
+            &:nth-child(odd){
+                align-self: flex-end;
+            }
+
+            width: 70%;
+            height: 700px;
+            background-color: white;
+        }
+    }
+    
+}
