@@ -121,6 +121,8 @@ nav .nav-el li a {
   height: 200px;
   opacity: 0.9;
   background-color: white;
+  -webkit-box-shadow: -15px 20px 0 0 rgba(14, 135, 193, 0.5);
+          box-shadow: -15px 20px 0 0 rgba(14, 135, 193, 0.5);
   margin-top: 40%;
 }
 /*# sourceMappingURL=styles.css.map */
