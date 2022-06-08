@@ -80,7 +80,8 @@ nav .nav-el li a {
 }
 
 .our-work h2 {
-  border-bottom: 2px solid #0d3563;
+  padding: 5px;
+  border-bottom: 3px solid #144e8f;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
