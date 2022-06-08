@@ -10,10 +10,11 @@ nav{
     }
     .nav-el{
         display: flex;
-        gap:20px;
+        gap:25px;
         li{
             list-style-type: none;
             a{
+                font-size: small;
                 font-weight: 300;
                 text-transform:uppercase;
                 text-decoration: none;

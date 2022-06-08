@@ -29,7 +29,7 @@ nav .nav-el {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 nav .nav-el li {
@@ -37,6 +37,7 @@ nav .nav-el li {
 }
 
 nav .nav-el li a {
+  font-size: small;
   font-weight: 300;
   text-transform: uppercase;
   text-decoration: none;
