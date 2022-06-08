@@ -1,8 +1,11 @@
 body {
   overflow: auto;
   background-image: linear-gradient(30deg, #1d0d42, #1a1953);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
+}
+
+* {
+  font-family: 'Monserrat',sans-serif;
 }
 
 nav {
@@ -34,6 +37,7 @@ nav .nav-el li {
 }
 
 nav .nav-el li a {
+  font-weight: 300;
   text-transform: uppercase;
   text-decoration: none;
   color: white;
