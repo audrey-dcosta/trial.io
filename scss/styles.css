@@ -1,6 +1,5 @@
 body {
-  background-image: -webkit-gradient(linear, left top, right top, from(#230f3d), to(#0c1e58));
-  background-image: linear-gradient(450deg, #230f3d, #0c1e58);
+  background-image: linear-gradient(30deg, #1d0d42, #1a1953);
 }
 
 nav {
@@ -36,5 +35,32 @@ nav .nav-el li a {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
+}
+
+.intro-section {
+  margin: 50px 100px;
+  max-width: 500px;
+}
+
+.intro-section h1 {
+  color: #1e8ab4;
+  font-size: 4em;
+  font-weight: 100;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro-section p {
+  color: white;
+  line-height: 1.5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro-section button {
+  background-color: transparent;
+  border: 2px solid #196eb3;
+  border-radius: 50px;
+  padding: 10px 40px;
+  color: white;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */
