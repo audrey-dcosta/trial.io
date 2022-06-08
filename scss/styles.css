@@ -103,7 +103,7 @@ nav .nav-el li a {
   background-color: white;
 }
 
-.our-work .outer-box .img-box:nth-child(odd) {
+.our-work .outer-box .img-box:nth-child(even) {
   -ms-flex-item-align: end;
       align-self: flex-end;
 }

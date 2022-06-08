@@ -12,7 +12,7 @@
         gap: 100px;
         
         .img-box{
-            &:nth-child(odd){
+            &:nth-child(even){
                 align-self: flex-end;
             }
 
