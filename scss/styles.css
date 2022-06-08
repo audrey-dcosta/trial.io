@@ -43,20 +43,23 @@ nav .nav-el li a {
 }
 
 .intro-section h1 {
-  color: #264e7c;
+  color: #1e8ab4;
   font-size: 4em;
+  font-weight: 100;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .intro-section p {
   color: white;
+  line-height: 1.5;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .intro-section button {
   background-color: transparent;
-  border: 1px solid black;
+  border: 2px solid #196eb3;
   border-radius: 50px;
-  padding: 10px 20px;
+  padding: 10px 40px;
   color: white;
   cursor: pointer;
 }
