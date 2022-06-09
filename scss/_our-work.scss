@@ -13,10 +13,18 @@
         gap: 100px;
         
         .img-box{
+            // background-image: url('../assets/images/Bitmap.png');
+            // background-size: contain;
+            width: 70%;
+            height: 700px;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
             &:nth-child(even){
                 align-self: flex-end;
                 .card{
-                    margin-left: -20%;
+                    margin-left: -30%;
                     // margin-left: 70%;
                 }
                 
@@ -27,9 +35,7 @@
                 }
                 
             }
-            width: 70%;
-            height: 700px;
-            background-color: white;
+
             .card{
                 display: flex;
                 flex-direction: column;
@@ -40,7 +46,7 @@
                 background-color: white;
                 box-shadow: -15px 20px 0 0 rgba(14, 135, 193, 0.5);
                 // margin-left: 70%;
-                margin-top: 40%;
+                margin-top: -60%;
                 a{
                     margin-top: 20px;
                     text-decoration: none;
