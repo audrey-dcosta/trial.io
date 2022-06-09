@@ -33,6 +33,9 @@
             background-color: transparent;
             border: 2px solid rgb(17, 75, 141);
             max-height:min-content;
+            &:hover{
+                background-color: rgb(17, 75, 141);
+            }
             
         }
         .img-box{

@@ -24,6 +24,10 @@
         padding: 10px 40px;
         color: white;
         cursor: pointer;
+        &:hover{
+            background-color: rgba(14, 135, 193, 0.8);
+
+        }
     }
     
 }

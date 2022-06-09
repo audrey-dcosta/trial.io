@@ -18,6 +18,9 @@ nav{
                 text-align: right;
                 text-transform: uppercase;
                 color: #FFFFFF;
+                &:hover{
+                    color: rgb(14, 132, 187);
+                }
             }
         }
     }

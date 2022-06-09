@@ -42,6 +42,10 @@ nav .nav-el li a {
   color: #FFFFFF;
 }
 
+nav .nav-el li a:hover {
+  color: #0e84bb;
+}
+
 .intro-section {
   margin: 100px 100px;
   max-width: 50%;
@@ -71,6 +75,10 @@ nav .nav-el li a {
   padding: 10px 40px;
   color: white;
   cursor: pointer;
+}
+
+.intro-section button:hover {
+  background-color: rgba(14, 135, 193, 0.8);
 }
 
 .desc-section {
@@ -223,6 +231,10 @@ nav .nav-el li a {
   max-height: -webkit-min-content;
   max-height: -moz-min-content;
   max-height: min-content;
+}
+
+.our-process .container-1 button:hover {
+  background-color: #114b8d;
 }
 
 .our-process .container-1 .img-box {
