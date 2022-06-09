@@ -5,6 +5,12 @@ footer{
         display: flex;
         justify-content: space-around;
         .ozzitech-info{
+            .img-box{
+                height: 30px;
+                width: 100%;
+                background:url('../assets/logo/Ozzitech\ logo\ Light.png');
+                background-size: contain;
+            }
             .socials{
                 margin-top: 10px;
                 display: flex;

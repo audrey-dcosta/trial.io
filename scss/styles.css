@@ -272,6 +272,13 @@ footer .footer-box {
       justify-content: space-around;
 }
 
+footer .footer-box .ozzitech-info .img-box {
+  height: 30px;
+  width: 100%;
+  background: url("../assets/logo/Ozzitech logo Light.png");
+  background-size: contain;
+}
+
 footer .footer-box .ozzitech-info .socials {
   margin-top: 10px;
   display: -webkit-box;
