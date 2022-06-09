@@ -233,4 +233,39 @@ nav .nav-el li a {
   font-weight: 500;
   color: #0E87C1;
 }
+
+.our-services h2 {
+  padding: 10px;
+  border-bottom: 3px solid #144e8f;
+  width: 30%;
+  font-weight: 500;
+}
+
+footer {
+  border-top: 2px solid #155f9c;
+}
+
+footer .footer-box {
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .footer-box .ozzitech-info .socials {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+footer .footer-box .ozzitech-info .socials div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1a8dc2;
+}
 /*# sourceMappingURL=styles.css.map */
