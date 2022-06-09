@@ -198,7 +198,7 @@ nav .nav-el li a:hover {
   font-weight: 500;
 }
 
-.our-process .container-1 {
+.our-process .our-process-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,17 +210,17 @@ nav .nav-el li a:hover {
   gap: 30px;
 }
 
-.our-process .container-1 p {
+.our-process .our-process-list p {
   font-weight: 300;
   font-size: 20px;
   line-height: 35px;
 }
 
-.our-process .container-1 p:first-child {
+.our-process .our-process-list p:first-child {
   width: 70%;
 }
 
-.our-process .container-1 button {
+.our-process .our-process-list button {
   border-radius: 50px;
   width: 20%;
   height: 60px;
@@ -233,20 +233,20 @@ nav .nav-el li a:hover {
   max-height: min-content;
 }
 
-.our-process .container-1 button:hover {
+.our-process .our-process-list button:hover {
   background-color: #114b8d;
 }
 
-.our-process .container-1 .img-box {
+.our-process .our-process-list .img-box {
   height: full;
   width: 30%;
 }
 
-.our-process .container-1 .img-box img {
+.our-process .our-process-list .img-box img {
   width: 100%;
 }
 
-.our-process .container-1 .container-2 {
+.our-process .our-process-list .our-process-desc {
   width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -257,7 +257,7 @@ nav .nav-el li a:hover {
           flex-direction: column;
 }
 
-.our-process .container-1 .container-2 h3 {
+.our-process .our-process-list .our-process-desc h3 {
   margin: 0;
   font-size: 70px;
   font-weight: 500;
