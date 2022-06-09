@@ -19,12 +19,6 @@ nav {
       justify-content: space-around;
 }
 
-nav .logo {
-  height: 10px;
-  width: 10px;
-  background-color: aqua;
-}
-
 nav .nav-el {
   display: -webkit-box;
   display: -ms-flexbox;
