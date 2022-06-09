@@ -194,6 +194,11 @@ nav .nav-el li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   gap: 30px;
 }
 
@@ -203,7 +208,15 @@ nav .nav-el li a {
   line-height: 35px;
 }
 
+.our-process .container-1 p:first-child {
+  width: 70%;
+}
+
 .our-process .container-1 button {
+  border-radius: 50px;
+  width: 20%;
+  height: 60px;
+  color: white;
   padding: 20px 10px;
   background-color: transparent;
   border: 2px solid #114b8d;
@@ -212,8 +225,13 @@ nav .nav-el li a {
   max-height: min-content;
 }
 
-.our-process .container-1 img {
-  margin-right: 20px;
+.our-process .container-1 .img-box {
+  height: full;
+  width: 30%;
+}
+
+.our-process .container-1 .img-box img {
+  width: 100%;
 }
 
 .our-process .container-1 .container-2 {

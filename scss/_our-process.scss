@@ -12,6 +12,8 @@
     }
     .container-1{
         display: flex;
+        align-content: space-between;
+        justify-content: space-between;
         gap: 30px;
 
         p{
@@ -19,17 +21,27 @@
             font-size: 20px;
             line-height: 35px;
         }
+        p:first-child{
+            width:70%;
+        }
         button{
+            border-radius: 50px;
+            width: 20%;
+            height: 60px;
+            color: white;
             padding:20px 10px;
             background-color: transparent;
             border: 2px solid rgb(17, 75, 141);
             max-height:min-content;
             
         }
-        img{
-            margin-right:20px;
+        .img-box{
+            height: full;
+            width: 30%;
+            img{
+                width: 100%;
+            }
         }
-        
         .container-2{
             
             width:60%;
