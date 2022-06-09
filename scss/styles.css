@@ -183,14 +183,21 @@ nav .nav-el li a {
   gap: 20px;
 }
 
+.our-process h2 {
+  padding: 10px;
+  border-bottom: 3px solid #144e8f;
+  width: 30%;
+  font-weight: 500;
+}
+
 .our-process .container-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 30px;
 }
 
 .our-process .container-1 p {
-  width: 40%;
   font-weight: 300;
   font-size: 20px;
   line-height: 35px;
@@ -205,9 +212,8 @@ nav .nav-el li a {
   max-height: min-content;
 }
 
-.our-process .container-1 .img-div {
-  width: 40%;
-  height: full;
+.our-process .container-1 img {
+  margin-right: 20px;
 }
 
 .our-process .container-1 .container-2 {
@@ -221,7 +227,7 @@ nav .nav-el li a {
           flex-direction: column;
 }
 
-.our-process .container-1 .container-2 h1 {
+.our-process .container-1 .container-2 h3 {
   margin: 0;
   font-size: 70px;
   font-weight: 500;
