@@ -1,0 +1,43 @@
+.our-process{
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    .container-1{
+        display: flex;
+        p{
+            width: 40%;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 35px;
+        }
+        button{
+            padding:20px 10px;
+            background-color: transparent;
+            border: 2px solid rgb(17, 75, 141);
+            max-height:min-content;
+            
+        }
+        .img-div{
+            width:40%;
+            height: full;
+            background-color: black;
+        }
+        .container-2{
+            
+            width:60%;
+            display: flex;
+            flex-direction: column;
+            h1{
+                margin: 0;
+                font-size: 70px;
+                font-weight: 500;
+                color: #0E87C1;
+            }
+            
+
+        }
+    }
+
+}

@@ -153,4 +153,65 @@ nav .nav-el li a {
   color: #241747;
   font-weight: 600;
 }
+
+.our-process {
+  margin: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.our-process .container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.our-process .container-1 p {
+  width: 40%;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.our-process .container-1 button {
+  padding: 20px 10px;
+  background-color: transparent;
+  border: 2px solid #114b8d;
+  max-height: -webkit-min-content;
+  max-height: -moz-min-content;
+  max-height: min-content;
+}
+
+.our-process .container-1 .img-div {
+  width: 40%;
+  height: full;
+  background-color: black;
+}
+
+.our-process .container-1 .container-2 {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our-process .container-1 .container-2 h1 {
+  margin: 0;
+  font-size: 70px;
+  font-weight: 500;
+  color: #0E87C1;
+}
 /*# sourceMappingURL=styles.css.map */
