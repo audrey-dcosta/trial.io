@@ -92,14 +92,14 @@ nav .nav-el li a {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 50px 100px;
+  gap: 30px;
 }
 
 .our-work h2 {
-  padding: 5px;
+  padding: 10px;
   border-bottom: 3px solid #144e8f;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  width: 30%;
+  font-weight: 500;
 }
 
 .our-work .outer-box {
