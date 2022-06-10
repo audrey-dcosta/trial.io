@@ -305,4 +305,10 @@ footer .footer-box .ozzitech-info .socials div {
   border-radius: 50%;
   background-color: #1a8dc2;
 }
+
+footer .footer-box .ozzitech-info .terms-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=styles.css.map */
